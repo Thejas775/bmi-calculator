@@ -61,6 +61,7 @@ body {
 .footer{
     color:white;
     text-align: center;
+    position: fixed;
 }
 .result{
     font-weight: 500;
