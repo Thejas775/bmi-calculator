@@ -19,7 +19,7 @@
     align-items: center;
     background-color: rgba(240, 240, 240, 0.425);
     text-align: center;
-    height: 50vh;
+    height: 55vh;
     width: 40vh;
 }
 body {
@@ -61,7 +61,6 @@ body {
 .footer{
     color:white;
     text-align: center;
-    position: fixed;
 }
 .result{
     font-weight: 500;
