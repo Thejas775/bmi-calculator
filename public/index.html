@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="custom.css">
+</head>
+<body>
+    <div class="thejas">
+        <div class="centered-content">
+            <div class="heading">
+                <H1>BMI Calculator</H1>
+                
+            </div>
+            
+
+        <div class="input-group">
+            <label for="name">Name:</label><br>
+            <input class="input-field" type="text" id="name" placeholder="Enter your name">
+        </div>
+        <div class="input-group">
+            <label for="height">Height (cm):</label><br>
+            <input type="number" class="input-field" id="height" placeholder="Enter your height in centimeters">
+        </div>
+        
+        <div class="input-group">
+            <label for="weight">Weight (kg):</label><br>
+            <input type="number" id="weight" class="input-field" placeholder="Enter your weight in kilograms">
+        </div>
+        <div class="buttont"><button onclick="calculateBMI()">Calculate BMI</button></div>
+        
+        <div id="result" class="result"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+    <footer class="footer">Made by <a class="text-blue-700" href="https://www.linkedin.com/in/thejas-elandassery-2ab5931b2/">Thejas Elandassery</a>. Completely Opensource. Feel free to use it.</footer>
+</body>
+</html>

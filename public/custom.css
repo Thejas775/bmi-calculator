@@ -1,0 +1,67 @@
+.thejas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.heading{
+    margin-bottom: 5vh;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.centered-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(240, 240, 240, 0.425);
+    text-align: center;
+    height: 50vh;
+    width: 40vh;
+}
+body {
+    background: url('assets/new.jpg') no-repeat center center fixed;
+    background-size: cover; 
+    height: 100vh;
+}
+.input-group {
+    margin: 10px ;
+    font-size: larger;
+    font-weight: 500;
+}
+.input-field{
+    margin-top: 10px;
+    font-size: medium;
+    font-weight:400;
+}
+.buttont {
+    text-align: center;
+}
+
+.buttont button {
+    margin-top: 5vh;
+    background-color: #d66112cb; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px; 
+    transition: background-color 0.3s ease; 
+}
+
+.buttont button:hover {
+    background-color: #ec7506d2; 
+}
+.footer{
+    color:white;
+    text-align: center;
+}
+.result{
+    font-weight: 500;
+}
