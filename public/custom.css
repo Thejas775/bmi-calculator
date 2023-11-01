@@ -19,8 +19,8 @@
     align-items: center;
     background-color: rgba(240, 240, 240, 0.425);
     text-align: center;
-    height: 60vh;
-    width: 40vh;
+    height: 80vh;
+    width: 60vh;
 }
 body {
     background: url('assets/new.jpg') no-repeat center center fixed;
